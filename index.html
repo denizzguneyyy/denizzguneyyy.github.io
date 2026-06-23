@@ -44,7 +44,8 @@
         .game-card:hover { transform: translateY(-10px); background: rgba(255, 255, 255, 0.08); }
         .game-card h3 { font-size: 2.5rem; margin-bottom: 15px; color: white; }
         
-        .badge.play-link { display: inline-block; background: #00E5FF; color: var(--koyu-lacivert); padding: 8px 20px; border-radius: 20px; font-weight: 800; font-size: 1rem; margin-bottom: 15px; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0, 229, 255, 0.3); }
+        .download-links { display: flex; gap: 10px; margin-bottom: 15px; flex-wrap: wrap; }
+        .badge.play-link { display: inline-block; background: #00E5FF; color: var(--koyu-lacivert); padding: 8px 20px; border-radius: 20px; font-weight: 800; font-size: 1rem; text-decoration: none; transition: all 0.3s ease; box-shadow: 0 4px 10px rgba(0, 229, 255, 0.3); }
         .badge.play-link:hover { background: var(--simsek-sarisi); box-shadow: 0 4px 15px rgba(226, 243, 17, 0.5); transform: scale(1.05); }
 
         .game-card p { font-size: 1.1rem; color: #cbd5e1; margin-bottom: 25px; line-height: 1.6; }
@@ -180,7 +181,10 @@
             
             <!-- Sea Blast Kartı -->
             <div class="game-card">
-                <a href="https://play.google.com/store/apps/details?id=com.dggames.denizblokoyunu" target="_blank" class="badge play-link">Hemen İndir (Google Play)</a>
+                <div class="download-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.dggames.denizblokoyunu" target="_blank" class="badge play-link">Google Play</a>
+                    <a href="https://apps.apple.com/us/app/sea-blast-block-game/id6778689190" target="_blank" class="badge play-link">App Store</a>
+                </div>
                 <h3>Sea Blast</h3>
                 
                 <div class="media-container">
